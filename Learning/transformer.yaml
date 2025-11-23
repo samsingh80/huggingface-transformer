@@ -28,7 +28,7 @@ spec:
         maxReplicas: 1
         containers:
         - name: kserve-container
-          image: docker.io/my-transformer-inference:latest
+          image: docker.io/jeyasinghsamuelponnusamydur043/transformer:ai-core-transformer
           ports:
             - containerPort: 8080
               protocol: TCP
